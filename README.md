@@ -1,2 +1,2 @@
 # Site-Ceecal
- Site da Casa de estudos Espírita Caminho da Luz
+ Site da Casa de Estudos Espírita Caminho da Luz.
