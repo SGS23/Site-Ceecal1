@@ -1,0 +1,343 @@
+/*MENU MOBILLE*/
+@media(max-width: 830px) {
+    /*Quando a tela for menor que isso...*/
+    /*mobile*/
+
+    .ul {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ul a {
+        width: 100%;
+    }
+
+    .container nav ul {
+        align-items: center;
+        margin-top: 5px;
+        padding: 0 95px 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*banner responsivo*/
+    .banner {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 60px 80px 80px 0;
+    }
+
+    .banner img {
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        /* flex-wrap: wrap; */
+    }
+
+    .banner h1 {
+        font-size: 17px;
+    }
+
+    /*end banner responsivo*/
+
+
+    /*Página home responsiva*/
+    .secao_home .secao_home-texto {
+        margin-top: 10px;
+        padding: 0 20px;
+        order: 1;
+        /*muda a órdem da div faça mais text para o outro lado lá no site*/
+    }
+
+    .secao_home .secao_home-texto {
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: -30px;
+        align-items: center;
+        /*Ocupar 100% da largura*/
+    }
+
+    .secao_home .container {
+        flex-direction: column;
+        /*muda a direção para coluna*/
+    }
+
+    .secao_home .secao_home-texto h3 {
+        display: flex;
+        font-size: 40px;
+    }
+
+    .secao_home .secao_home-texto div img {
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+
+    .secao_home .secao_home-video {
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        order: 1;
+    }
+
+    .secao_home .secao_home-video .video {
+        width: 637px;
+        height: 392px;
+        flex-wrap: wrap;
+    }
+
+    .secao_home .secao_home-img {
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .whats {
+        bottom: 10px;
+        right: 0px;
+
+    }
+
+    .whats a img {
+        width: 80%;
+        height: 80%;
+    }
+
+    /* .whats img{    
+        margin: 0 0 -30px 10px;
+        width: 70%;
+        height: 70%;
+        flex-wrap: wrap;   
+    } */
+
+
+
+    /*Sobre responsivo*/
+    .sobre .container {
+        display: block;
+    }
+
+    .sobre .sobre-texto {
+        margin: 20px;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sobre .sobre-texto h3 {
+        margin-top: -50px;
+
+    }
+
+    .sobre .sobre-texto p {
+        align-items: center;
+        margin-top: 25px;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .sobre .sobre-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sobre .sobre-img img {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    /*end Sobre Responsivo*/
+
+
+    /*CONTATO RESP*/
+    .banner {
+        width: 100%;
+    }
+
+    .contato .mapa iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .contato h4 {
+        margin-top: -20px;
+    }
+
+    /* .container  i{
+        width: 100%;
+    } */
+    .container .contato-informacoes {
+        width: 100%;
+        display: block;
+    }
+
+    .contato-informacoes .lado-esquerdo {
+        width: 100%;
+    }
+
+    .footer .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contato-informacoes .lado-direito {
+        /*parei aqui*/
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+/*500 PX*/
+
+@media (max-width:500px) {
+    .container nav ul a {
+        font-size: 13px;
+    }
+
+    .banner {
+        font-size: 50px;
+    }
+
+    .secao_home .secao_home-video iframe {
+        margin: 0 0px 0px 20px;
+        align-items: center;
+        width: 400px;
+        height: 250px;
+    }
+
+    .secao_home .secao_home-texto h3 {
+        font-size: 25px;
+    }
+
+    .contato-informacoes .lado-esquerdo p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .whats {
+        bottom: 40px;
+        right: 0px;
+    }
+
+    .whats a img {
+        width: 60%;
+        height: 60%;
+    }
+
+    /* .whats img{
+        padding:  25px 0;
+         margin:0 10px 0px 0px; 
+        width: 50%;
+        height: 50%;
+        align-items: end;   
+    } */
+    .contato-informacoes .lado-direito {
+        /*parei aqui*/
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contato-informacoes .lado-direito input,
+    .contato-informacoes .lado-direito textarea {
+        font-size: 15px;
+    }
+
+    .contato-informacoes .lado-direito .botao {
+        font-size: 15px;
+        margin: 0 120px;
+
+    }
+}
+
+
+@media (max-width:370px) {
+    .container nav ul a {
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .banner {
+        font-size: 50px;
+    }
+
+    .secao_home .secao_home-texto h3 {
+        font-size: 15px;
+    }
+
+    .secao_home .secao_home-video iframe {
+        margin: 0 0px 0px 20px;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .secao_home .secao_home-img img {
+        width: 100%;
+    }
+
+    .container .ul .botao {
+        font-size: 10px;
+        width: 70px;
+        flex-wrap: wrap;
+    }
+
+    .contato-informacoes .lado-esquerdo p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .contato-informacoes .lado-direito {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contato-informacoes .lado-direito input,
+    .contato-informacoes .lado-direito textarea {
+        font-size: 12px;
+    }
+
+    .contato-informacoes .lado-direito .botao {
+        font-size: 15px;
+        justify-content: center;
+        margin: 0 50px;
+
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .footer .idt {
+        font-size: 10px;
+    }
+
+    .whats {
+        bottom: 30px;
+        right: -10px;
+    }
+
+    .whats a img {
+        width: 50%;
+        height: 50%;
+    }
+
+}
+
+/*END MOBILLE*/
