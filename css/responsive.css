@@ -220,6 +220,10 @@
         height: 250px;
     }
 
+    .secao_home .secao_home-img { 
+        padding-left: 21px;    
+    }
+
     .secao_home .secao_home-texto h3 {
         font-size: 25px;
     }
