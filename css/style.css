@@ -189,7 +189,6 @@ nav ul a:hover::after {
 }
 
 .secao_home .secao_home-img img {
-    padding-left: 20px;
     width: auto;
     height: auto;
 }
