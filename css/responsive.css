@@ -84,6 +84,10 @@
         align-items: center;
     }
 
+    .secao_home .container .cod {
+        margin-left: 20px;
+    }
+
     .secao_home .secao_home-video {
         display: flex;
         align-items: center;
@@ -227,6 +231,10 @@
     .contato-informacoes .lado-esquerdo p {
         width: 100%;
         font-size: 15px;
+    }
+
+    .secao_home .container .cod {
+        margin-left: 22px;
     }
 
     .whats {
