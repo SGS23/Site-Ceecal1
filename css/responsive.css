@@ -229,6 +229,10 @@
         font-size: 15px;
     }
 
+    .secao_home .cod{
+        margin-left: 20px;
+    }
+
     .whats {
         bottom: 40px;
         right: 0px;
@@ -262,6 +266,9 @@
         font-size: 15px;
         margin: 0 120px;
 
+    }
+    .footer .idt {
+        font-size: 13px;
     }
 }
 

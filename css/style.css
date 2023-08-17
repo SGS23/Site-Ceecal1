@@ -188,7 +188,7 @@ nav ul a:hover::after {
     margin: 110px 20px 80px 0px;
 }
 
-.secao_home .secao_home-img img {
+.secao_home .secao_home-img img {align-items: center;
     width: auto;
     height: auto;
 }
