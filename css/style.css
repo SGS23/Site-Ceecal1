@@ -90,8 +90,9 @@ nav ul a {
 .botao:hover {
     background-color: green;
 }
+
 /*Cor dos botões do menu*/
-.bt-nav{
+.bt-nav {
     background-color: rgb(16, 95, 16);
     color: white;
     padding: 8px 20px;
@@ -100,12 +101,13 @@ nav ul a {
     cursor: pointer;
     display: inline-block;
     /*elemento e comportamento bloco*/
-    transition: 0.2s; 
+    transition: 0.2s;
 }
 
 .bt-nav:hover {
     background-color: green;
 }
+
 /*end Cor dos botões do menu*/
 
 /*END BOTÃO*/
@@ -274,6 +276,10 @@ nav ul a:hover::after {
     justify-content: space-between;
 }
 
+.sobre .sobre-texto h3 {
+    font-size: 40px;
+}
+
 .sobre .sobre-texto {
     width: 50%;
     padding-right: 40px;
@@ -288,10 +294,12 @@ nav ul a:hover::after {
 }
 
 .sobre .sobre-img {
-    width: 50%;
+    margin-top: 100px;
+    /* width: 50%; */
 }
 
 .sobre .sobre-img img {
+    width: 100%;
     border-radius: 10px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.621);
 }
@@ -348,7 +356,8 @@ nav ul a:hover::after {
     right: 40px;
     z-index: 9999;
 }
-.whats a img{
+
+.whats a img {
     width: 100%;
 }
 
