@@ -233,7 +233,7 @@
         font-size: 15px;
     }
 
-    .idt{
+    .idt {
         font-size: 12px;
     }
 
@@ -259,6 +259,39 @@
         align-items: end;   
     } */
 
+    /*SOBRE RESP 530*/
+
+    .sobre {
+        margin: 0;
+    }
+
+    .sobre .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre .container h3 {
+        font-size: 37px;
+    }
+
+    .sobre .container h4 {
+        font-size: 15px;
+    }
+
+    .sobre .container p {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    .footer .idt {
+        font-size: 13px;
+    }
+
+    /*END SOBRE RESP 530*/
+
     /*contato resp 370*/
     .contato-informacoes .lado-direito {
         /*parei aqui*/
@@ -277,23 +310,26 @@
         margin: 0 120px;
 
     }
-    
-    .contato h4{
+
+    .contato h4 {
         font-size: 15px;
-        text-align: center;    
+        text-align: center;
     }
+
     /*end contato resp 370*/
 
-    .container .lado-direito form button{
-        display: flex; /*isso impediu a pg de se mexer em 384*/
+    .container .lado-direito form button {
+        display: flex;
+        /*isso impediu a pg de se mexer em 384*/
     }
 
-    .container .lado-direito .botao{
+    .container .lado-direito .botao {
         align-items: center;
         margin-left: 98px;
     }
 
 }
+
 /*END 500 RESP*/
 
 @media (max-width:370px) {
@@ -318,33 +354,33 @@
     }
 
     /*SOBRE RESP 370*/
-    .container .sobre-texto{
-        background: red;
+    .container .sobre-texto {
         margin: 0;
     }
 
-    .container .sobre-texto  h3{
+    .container .sobre-texto h3 {
         text-align: center;
         font-size: 30px;
-        padding-left: 40px;        
+        padding-left: 40px;
     }
 
-    .container .sobre-texto p{
+    .container .sobre-texto p {
         text-justify: auto;
         font-size: 16px;
-        margin:  20px;   
+        margin: 20px;
     }
 
-    .container .sobre-texto  h4{
+    .container .sobre-texto h4 {
         text-align: center;
         font-size: 15px;
-        padding-left: 40px;        
+        padding-left: 40px;
     }
 
-    .container .sobre-img{
+    .container .sobre-img {
         margin-top: -20px;
-        
+
     }
+
     /*END SOBRE RESP 370*/
 
     .secao_home .secao_home-img img {
