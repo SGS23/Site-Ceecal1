@@ -1,0 +1,113 @@
+@media (max-width:370px) {
+    .container nav ul a {
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .banner {
+        font-size: 50px;
+    }
+
+    .container .banner h1 {
+        font-size: 11px;
+    }
+
+    /* .secao_home .secao_home-texto h3 {
+        font-size: 12px;
+    } */
+
+    .secao_home .secao_home-video iframe {
+        margin: 0 0px 0px 20px;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    /*SOBRE RESP 370*/
+    .container .sobre-texto {
+        margin: 0;
+    }
+
+    .container .sobre-texto h3 {
+        text-align: center;
+        font-size: 25px;
+        padding-left: 40px;
+    }
+
+    .container .sobre-texto p {
+        text-justify: auto;
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .container .sobre-texto h4 {
+        text-align: center;
+        font-size: 12px;
+        padding-left: 40px;
+    }
+
+    .container .sobre-img {
+        margin-top: 70px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .footer .idt {
+        font-size: 13px;
+    }
+
+    /*END SOBRE RESP 370*/
+
+    .secao_home .secao_home-img img {
+        width: 100%;
+    }
+
+    .container .ul .botao {
+        font-size: 10px;
+        width: 70px;
+        flex-wrap: wrap;
+    }
+
+    .contato-informacoes .lado-esquerdo p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .contato-informacoes .lado-direito {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contato-informacoes .lado-direito input,
+    .contato-informacoes .lado-direito textarea {
+        font-size: 12px;
+    }
+
+    .contato-informacoes .lado-direito .botao {
+        font-size: 15px;
+        justify-content: center;
+        margin: 0 50px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .footer .idt {
+        font-size: 10px;
+    }
+
+    .whats {
+        bottom: 30px;
+        right: -10px;
+    }
+
+    .whats a img {
+        width: 50%;
+        height: 50%;
+    }
+
+}
