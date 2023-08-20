@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 /*link da fonte*/
 
-* {
+* { 
     /*selc. todas as tegs, resetando*/
     margin: 0;
     /*espaçamento externo */
@@ -16,10 +16,17 @@
     /*chamou fonte importada do google*/
 
 }
-
 body {
-    max-width: 100vw;
+    min-height: 100vh;
+    max-width: 1400px;
+    background-color: papayawhip; 
+    margin: 0 auto;
+}
+body {background: yellowgreen;
+    /* max-width: 100vw; */
     max-height: 100vh;
+    margin: 0 auto;
+    
 }
 
 section,
@@ -36,16 +43,16 @@ h3 {
     color: red;
 } */
 
-.container {
+.container {background: red;
     justify-content: space-around;
     max-width: 1400px;
     /*largura máxima*/
-    margin: 0 auto;
-    padding: 0 5%;
+    /* margin: 0 auto; */
+    /* padding: 0 5%; */
 }
 
 
-header {
+header {background: red; max-width: 1400px;
     /*caso coloque imagem de fundo*/
     background-size: cover;
     background-attachment: fixed;
@@ -238,7 +245,7 @@ nav ul a:hover::after {
 
 /*FOOTER*/
 
-.footer {
+.footer {max-width: 1400px;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -396,9 +403,5 @@ nav ul a:hover::after {
 }
 
 /*END PÁGINA CONTATO*/
-
-
-/*ATÉ AQUI*/
-
 
 /* body { overflow-x: hidden; } tira barra de rolágem horizontal */
