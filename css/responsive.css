@@ -141,24 +141,27 @@
     }
 
     .sobre .sobre-texto h3 {
+        text-align: center;
+        font-size: 35px;
         margin-top: -50px;
 
     }
 
     .sobre .sobre-texto p {
+        font-size: 100%;
         align-items: center;
         margin-top: 25px;
         text-align: justify;
         width: 100%;
     }
 
-    .sobre .sobre-img {
+    .sobre .sobre-img { 
         width: 100%;
         height: 100%;
     }
 
     .sobre .sobre-img img {
-        margin-top: 25px;
+        margin-top: -40px;
         width: 100%;
     }
 
@@ -259,7 +262,7 @@
         align-items: end;   
     } */
 
-    /*SOBRE RESP 530*/
+    /*SOBRE RESP 500*/
 
     .sobre {
         margin: 0;
@@ -290,9 +293,9 @@
         font-size: 13px;
     }
 
-    /*END SOBRE RESP 530*/
+    /*END SOBRE RESP 500*/
 
-    /*contato resp 370*/
+    /*contato resp */
     .contato-informacoes .lado-direito {
         /*parei aqui*/
         padding: 20px;
@@ -342,7 +345,6 @@
         font-size: 50px;
     }
     .container .banner h1{
-        background: red;
         font-size: 11px;
     }
 
@@ -381,7 +383,7 @@
     }
 
     .container .sobre-img {
-        margin-top: -10px;
+        margin-top: 70px;
 
     }
 
@@ -395,7 +397,7 @@
 
     /*END SOBRE RESP 370*/
 
-    .secao_home .secao_home-img img {
+    .secao_home .secao_home-img img { 
         width: 100%;
     }
 
@@ -496,7 +498,6 @@
     }
 
     .secao_home .container .secao_home-img .cod {
-        background: red;
         width: 200px;
         margin: -50px 0px 0px 20px;
     }
