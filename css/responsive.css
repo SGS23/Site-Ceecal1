@@ -341,6 +341,10 @@
     .banner {
         font-size: 50px;
     }
+    .container .banner h1{
+        background: red;
+        font-size: 11px;
+    }
 
     /* .secao_home .secao_home-texto h3 {
         font-size: 12px;
@@ -442,6 +446,156 @@
         height: 50%;
     }
 
+}
+
+/*270 resp*/
+@media(max-width: 270px) {
+    .container nav ul a {
+        margin: 10px;
+        font-size: 8px;
+    }
+
+    .ul a {
+        display: flex;
+    }
+
+    .ul .bt-nav {
+        justify-content: center;
+    }
+
+    .container h1 {
+        font-size: 8px;
+    }
+
+    .secao_home .secao_home-texto {
+        width: 100%;
+        display: flex;
+    }
+
+    .secao_home .container .secao_home-texto img {
+        width: 100%;
+    }
+
+    .secao_home .secao_home-texto h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .secao_home .secao_home-texto p {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .secao_home .secao_home-video iframe {
+        margin: -20px 0px 0px 20px;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .secao_home .container .secao_home-img .cod {
+        background: red;
+        width: 200px;
+        margin: -50px 0px 0px 20px;
+    }
+
+    .secao_home-texto .botao {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin: 0 35px;
+        font-size: 15px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    /*SOBRE RESP 270*/
+    .container .sobre-texto {
+        margin: 0;
+    }
+
+    .container .sobre-texto h3 {
+        text-align: center;
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+    .container .sobre-texto p {
+        text-justify: auto;
+        font-size: 10px;
+        margin: 20px;
+    }
+
+    .container .sobre-texto h4 {
+        text-align: center;
+        font-size: 9px;
+        padding-left: 40px;
+    }
+
+    /*END SOBRE RESP 270*/
+
+    /*CONTATO 270*/
+    .contato-informacoes .lado-esquerdo p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .contato h4 {
+        margin-top: -70px;
+        font-size: 10px;
+    }
+
+    .contato .mapa iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contato-informacoes .lado-direito {
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contato-informacoes .lado-direito input,
+    .contato-informacoes .lado-direito textarea {
+        font-size: 10px;
+    }
+
+    .contato-informacoes .lado-direito .botao {
+
+        font-size: 12px;
+        justify-content: center;
+        margin: 0 60px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .footer .idt {
+        font-size: 8px;
+    }
+
+    .whats {
+        bottom: 30px;
+        right: -10px;
+    }
+
+    .whats a img {
+        width: 50%;
+        height: 50%;
+    }
+
+    /*END CONTATO 270*/
 }
 
 /*END MOBILLE*/
