@@ -88,7 +88,6 @@
     /*eventos*/
     .eventos .eventos-texto {
         flex-wrap: wrap;
-        background: red;
         margin-bottom: 100%;
         /*área total*/
         margin-top: 10px;
@@ -107,6 +106,7 @@
     .eventos .eventos-texto dd {
         font-size: 15px;
     }
+    /*end eventos*/
 
     .footer p {
         font-size: 14px;
