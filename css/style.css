@@ -131,7 +131,7 @@ nav ul a {
 
 /*end banner*/
 
-h1 { 
+h1 {
     text-align: center;
     margin: auto;
     font-weight: normal;
@@ -305,6 +305,25 @@ nav ul a:hover::after {
 }
 
 /*END PÁGINA SOBRE*/
+
+/* PÁGINA EVENTOS*/
+.eventos .eventos-texto {
+    flex-wrap: wrap;
+    margin-bottom: 100%; /*área total*/
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.eventos .eventos-texto h3{
+    text-align: center;
+    font-size: 40px;
+}
+.eventos .eventos-texto h4{
+    font-size: 30px;
+}
+.eventos .eventos-texto dd{
+    font-size: 25px;
+}
 
 /*PÁGINA CONTATO*/
 

@@ -94,6 +94,26 @@
 
     /*END SOBRE RESP 270*/
 
+
+    /* PÁGINA EVENTOS*/
+    .eventos .eventos-texto {
+        flex-wrap: wrap;
+        margin-bottom: 100%;
+        /*área total*/
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .eventos .eventos-texto h3{
+        font-size: 30px;
+    }
+    .eventos .eventos-texto dd{
+        font-size: 15px;
+    }
+
+
+    /* END PÁGINA EVENTOS*/
+
     /*CONTATO 270*/
     .contato-informacoes .lado-esquerdo p {
         width: 100%;
