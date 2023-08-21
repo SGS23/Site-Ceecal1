@@ -26,7 +26,7 @@
         width: 100%;
     }
 
-    .secao_home .secao_home-texto h3 {
+    .secao_home .secao_home-texto h3 { 
         width: 100%;
         margin: 0;
         text-align: center;
@@ -87,9 +87,9 @@
     }
 
     .container .sobre-texto h4 {
+        width: 100%;
         text-align: center;
         font-size: 9px;
-        padding-left: 40px;
     }
 
     /*END SOBRE RESP 270*/
