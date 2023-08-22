@@ -31,8 +31,6 @@
     }
     /*END HOME 500*/
 
-   
-
     /*SOBRE RESP 500*/
     .sobre {
         margin: 0;
@@ -113,8 +111,7 @@
         margin: 0 120px;
     }    
     .container .lado-direito form button {
-        display: flex;
-        /*isso impediu a pg de se mexer em 384*/
+        display: flex;/*isso impediu a pg de se mexer em 384*/
     }
     .container .lado-direito .botao {
         align-items: center;
