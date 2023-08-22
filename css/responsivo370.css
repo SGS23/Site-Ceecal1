@@ -7,85 +7,77 @@
     .banner {
         font-size: 50px;
     }
-
     .container .banner h1 {
         font-size: 11px;
     }
 
-    .container .ul .bt-nav {
+    .container .ul .bt-nav {/*Botões do menu*/
         padding: 8px 10px;
         text-align: center;
     }
 
-    /* .secao_home .secao_home-texto h3 {
-        font-size: 12px;
-    } */
+    /*HOME*/   
+     .secao_home .secao_home-texto h3 {
+        width: 200%;
+        margin: -20px -55px 8px;
+        text-align: center;
 
+    }     
+     .secao_home .container .secao_home-texto p {
+        width: 200%;
+        margin: 0 -55px;
+        text-align: center;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .secao_home .secao_home-img img {
+        width: 100%;
+    }
     .secao_home .secao_home-video iframe {
-        margin: 0 0px 0px 20px;
+        margin: 0 0px 0px 0px;
         align-items: center;
         width: 100%;
         height: 100%;
     }
-
-    .secao_home .secao_home-texto h3 {
-        width: 200%;
-        margin: -20px -50px 8px;
-        text-align: center;
-
-    }
-
     .secao_home .secao_home-texto .botao {
         margin: 30px -10px 0px;
         text-align: center;
         font-size: 10px;
         width: 120%;
-
     }
 
-    .secao_home .container .secao_home-texto p {
-        width: 200%;
-        margin: 0 -50px;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .secao_home .cod {
+    .secao_home .cod {/*Livros*/
         margin-top: -30px;
     }
+    /*End HOME*/
 
     /*SOBRE RESP 370*/
     .container .sobre-texto {
         margin: 0;
     }
-
     .container .sobre-texto h3 {
         width: 100%;
         text-align: center;
         font-size: 22px;
         padding-left: 40px;
     }
-
     .container .sobre-texto p {
         text-justify: auto;
         font-size: 12px;
         margin: 20px;
     }
-
     .container .sobre-texto h4 {
         margin: 20px;
         width: 100%;
         font-size: 12px;
         text-align: center;
-
     }
-
     .container .sobre-img {
         margin-top: 70px;
     }
-    /*end sobre*/
+    /*end sobre 370*/
 
-    /*eventos*/
+    /*EVENTOS*/
     .eventos .eventos-texto {
         flex-wrap: wrap;
         margin-bottom: 100%;
@@ -93,77 +85,66 @@
         margin-top: 10px;
         padding: 0 20px;
     }
-
     .eventos .eventos-texto h3 {
         text-align: center;
         font-size: 30px;
     }
-
     .eventos .eventos-texto h4 {
         font-size: 20px;
     }
-
     .eventos .eventos-texto dd {
         font-size: 15px;
     }
-    /*end eventos*/
+    /*End Eventos*/
 
+    /*FOOTER*/ 
+    .footer {
+        font-size: 12px;
+    }
     .footer p {
         font-size: 14px;
     }
-
-    .footer .idt {
-        font-size: 13px;
+    .footer .idt {/*Desenvolvido por*/
+        font-size: 10px;
     }
+    /*End Footer*/
 
-    .secao_home .secao_home-img img {
-        width: 100%;
-    }
-
-    .container .ul .botao {
+    /* .container .ul .botao {background: red;
         font-size: 10px;
         width: 70px;
         flex-wrap: wrap;
-    }
+    } */
 
+    /*CONTATO*/
     .contato-informacoes .lado-esquerdo p {
         width: 100%;
         font-size: 12px;
     }
-
     .contato-informacoes .lado-direito {
         padding: 20px;
         width: 100%;
         height: 100%;
     }
-
     .contato-informacoes .lado-direito input,
     .contato-informacoes .lado-direito textarea {
         font-size: 12px;
     }
-
     .contato-informacoes .lado-direito .botao {
         font-size: 15px;
         justify-content: center;
         margin: 0 50px;
     }
+    /*End Contato*/
 
-    .footer {
-        font-size: 12px;
-    }
-
-    .footer .idt {
-        font-size: 10px;
-    }
-
+    /*Botão WhatsApp*/
     .whats {
         bottom: 30px;
         right: -10px;
     }
-
     .whats a img {
         width: 50%;
         height: 50%;
     }
+    /*End Botão WhatsApp*/
 
 }
