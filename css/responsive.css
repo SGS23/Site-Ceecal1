@@ -58,29 +58,32 @@
     .secao_home .container {
         flex-direction: column; /*muda a direção para coluna*/
     }
-    .secao_home .secao_home-texto h3 {
+    .secao_home .secao_home-texto h3 { 
         display: flex;
-        font-size: 40px;
+        font-size: 30px;
     }
     .secao_home .secao_home-texto div img {
-        width: 00%;
+        width: 100%;
         display: block;
         align-items: center;
     }
     .secao_home .container .cod { /*Livros*/
-        margin-left: 20px;
+        margin-top: 40px;
+        /* margin-left: 20px; */
     }
-    .secao_home .secao_home-video {
-        margin: 0;
+    .secao_home .secao_home-video { /*Vídeo youtube*/
+        margin: 0 30px;
         display: flex;
         align-items: center;
         margin-top: 100px;
         order: 1;
-    }
-    .secao_home .secao_home-video .video {
-        width: 637px;
-        height: 392px;
         flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .secao_home .secao_home-video iframe { 
+        flex-wrap: wrap;  
+        width: 100%;   
     }
     .secao_home .secao_home-img {
         margin-top: -50px;
