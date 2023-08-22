@@ -72,7 +72,7 @@
         /* margin-left: 20px; */
     }
     .secao_home .secao_home-video { /*Vídeo youtube*/
-       display: flex;
+       display: flex; background: red;
         /* margin: 0 10px;
         
         align-items: center;
