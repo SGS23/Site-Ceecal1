@@ -1,43 +1,71 @@
 @media (max-width:370px) {
+
     .container nav ul a {
+        padding: 5%;
         margin: 10px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .banner {
         font-size: 50px;
     }
+
     .container .banner h1 {
         font-size: 11px;
     }
 
-    .container .ul .bt-nav {/*Botões do menu*/
+    .container .ul .bt-nav {
+        /*Botões do menu*/
         padding: 8px 10px;
         text-align: center;
     }
 
-    /*HOME*/   
-     .secao_home .secao_home-texto h3 {
+    /*HOME*/
+    .secao_home .secao_home-texto h3 {
+        flex-wrap: wrap;
         width: 200%;
-        margin: -20px -55px 8px;
+        align-items: center;
+        margin: 15px -50%;
         text-align: center;
+        margin-top: 0px;
+    }
 
-    }     
-     .secao_home .container .secao_home-texto p {
-        width: 200%;
-        margin: 0 -55px;
+    .secao_home .secao_home-texto p {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 10px -50%;
         text-align: center;
         font-size: 15px;
+    }
+
+    .container .secao_home-texto img {
         flex-wrap: wrap;
-    }
-    .secao_home .secao_home-img img {
-        width: 100%;
-    }
-    .secao_home .secao_home-video iframe {
-        margin: 0 0px 0px 0px;
+        margin: 30px -50%;
         align-items: center;
+    }
+
+    .secao_home .container .secao_home-texto img {
+        width: 200%;
+    }
+
+    .secao_home .secao_home-img img {
+        display: flex;
+        align-items: center;
+
         width: 100%;
-        height: 100%;
+    }
+
+    .secao_home .secao_home-video iframe {
+       flex-wrap: wrap; 
+        align-items: center;
+        max-width: 100%;
+        height: 200%;
+        width: 200%;    
+    }
+    .secao_home .container .secao_home-img .cod {background: red;
+        width: 170%;
+        /*Livros*/
+        margin-top: 30px;
     }
     .secao_home .secao_home-texto .botao {
         margin: 30px -10px 0px;
@@ -46,35 +74,40 @@
         width: 120%;
     }
 
-    .secao_home .cod {/*Livros*/
-        margin-top: -30px;
-    }
+
+
     /*End HOME*/
 
     /*SOBRE RESP 370*/
     .container .sobre-texto {
         margin: 0;
     }
+
     .container .sobre-texto h3 {
         width: 100%;
         text-align: center;
         font-size: 22px;
         padding-left: 40px;
     }
+
     .container .sobre-texto p {
         text-justify: auto;
         font-size: 12px;
         margin: 20px;
     }
+
     .container .sobre-texto h4 {
         margin: 20px;
         width: 100%;
         font-size: 12px;
         text-align: center;
     }
+
     .container .sobre-img {
-        margin-top: 70px;
+        background: red;
+        margin-top: -70px;
     }
+
     /*end sobre 370*/
 
     /*EVENTOS*/
@@ -85,28 +118,36 @@
         margin-top: 10px;
         padding: 0 20px;
     }
+
     .eventos .eventos-texto h3 {
         text-align: center;
         font-size: 30px;
     }
+
     .eventos .eventos-texto h4 {
         font-size: 20px;
     }
+
     .eventos .eventos-texto dd {
         font-size: 15px;
     }
+
     /*End Eventos*/
 
-    /*FOOTER*/ 
+    /*FOOTER*/
     .footer {
         font-size: 12px;
     }
+
     .footer p {
         font-size: 14px;
     }
-    .footer .idt {/*Desenvolvido por*/
+
+    .footer .idt {
+        /*Desenvolvido por*/
         font-size: 10px;
     }
+
     /*End Footer*/
 
     /* .container .ul .botao {background: red;
@@ -120,20 +161,24 @@
         width: 100%;
         font-size: 12px;
     }
+
     .contato-informacoes .lado-direito {
         padding: 20px;
         width: 100%;
         height: 100%;
     }
+
     .contato-informacoes .lado-direito input,
     .contato-informacoes .lado-direito textarea {
         font-size: 12px;
     }
+
     .contato-informacoes .lado-direito .botao {
         font-size: 15px;
         justify-content: center;
         margin: 0 50px;
     }
+
     /*End Contato*/
 
     /*Botão WhatsApp*/
@@ -141,10 +186,12 @@
         bottom: 30px;
         right: -10px;
     }
+
     .whats a img {
         width: 50%;
         height: 50%;
     }
+
     /*End Botão WhatsApp*/
 
 }
