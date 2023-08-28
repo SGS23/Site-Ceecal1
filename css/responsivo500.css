@@ -43,6 +43,7 @@
         font-size: 30px;
     }
     .sobre .container h4 {background-color: blue;
+        text-align: center;
         font-size: 15px;
     }
     .sobre .container p {
