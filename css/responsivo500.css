@@ -42,7 +42,7 @@
     .sobre .container h3 {
         font-size: 30px;
     }
-    .sobre .container h4 {
+    .sobre .container h4 {background-color: blue;
         font-size: 15px;
     }
     .sobre .container p {
