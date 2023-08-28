@@ -42,9 +42,15 @@
     .sobre .container h3 {
         font-size: 30px;
     }
-    .sobre .container h4 {background-color: blue;
+    .sobre .container h4 {
+       width: 100%;
+       margin: 0 20px;
+       margin-top: 20px;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .sobre .container img{
+        margin-top: -80px;
     }
     .sobre .container p {
         font-size: 12px;
